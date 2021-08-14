@@ -1,5 +1,5 @@
 // IMPORT FUNCTION
-import { listKiss } from "./gameData.js";
+import { listKiss, listMega, listPussy, listXe } from "./gameData.js";
 
 
 // MAIN ----------------------------------------------------------------
@@ -41,10 +41,15 @@ selEl.addEventListener('click',function() {
 
 // TIPS-GENERATOR ------------------------------------------------------
 const kiss = listKiss();
+const mega = listMega();
+const pussy = listPussy();
+const xe = listXe();
 
 // Create box for every agent games
 renderBox(kiss, '918KISS');
-renderBox(kiss, '918KISS');
+renderBox(mega, 'MEGA888');
+renderBox(pussy, 'PUSSY888');
+renderBox(xe, 'XE88');
 
 // function will create a new fieldset box
 function renderBox(labels, agentName) {
