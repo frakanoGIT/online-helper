@@ -40,6 +40,8 @@ selEl.addEventListener('click',function() {
 });
 selEl.addEventListener('keyup',function() {
     selectOpt(arrFunc);
+});
+
 // TIPS-GENERATOR ------------------------------------------------------
 const kiss = listKiss();
 const mega = listMega();
